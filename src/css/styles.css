@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #d2d2c1 url("../img/fundo.png");
+    background-repeat: repeat;
+    font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+#principal {
+    width: 1200px;
+    margin: 0 350px;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+}
+
+.nome-na-capa{
+    position: absolute;
+    font-family: 'Aboreto', cursive;
+    font-size: 46px;
+    font-weight: bold;
+    font-style: italic;
+    color: #d2d2c1;
+}
+
+.header img {
+    width: 1200px;
+    height: 620px;
+}
+.menu {
+    background: #c5c5b2;
+    padding: 18px;
+    display: flex;
+}
+.menu ul {
+    display: flex;
+}
+
+.menu ul li{
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.conteudo {
+    background: #e8e8d9;
+    padding: 15px;
+}
+
+.centralizar {
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    color: #828271;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+}
+
+.contato{
+    font-size: 18px;
+}
